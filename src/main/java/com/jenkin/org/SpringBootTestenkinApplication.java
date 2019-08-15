@@ -18,7 +18,7 @@ public class SpringBootTestenkinApplication {
 	}
 	
 	@PostConstruct
-	public  init()
+	public void  init()
 	{
 		logger.info("inside init method execution ");
 	}
